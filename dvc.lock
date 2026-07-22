@@ -29,8 +29,8 @@ stages:
       size: 91998
     - path: src/split_data.py
       hash: md5
-      md5: a6f91553deee379688edd308c08d0f15
-      size: 1192
+      md5: 7d73f3c0b8b1410827c0153795a2783b
+      size: 1199
     outs:
     - path: data/processed/test_winequality.csv
       hash: md5

@@ -29,7 +29,7 @@ def split_and_saved_data(config_path):
     )
 
     
-    
+
     os.makedirs(os.path.dirname(train_data_path), exist_ok=True)
 
     train.to_csv(train_data_path, sep=",", index=False, encoding="utf-8")
@@ -41,3 +41,5 @@ if __name__=="__main__":
     args.add_argument("--config", default="params.yaml")
     parsed_args = args.parse_args()
     split_and_saved_data(config_path=parsed_args.config)
+
+    
